@@ -1,0 +1,163 @@
+body{
+    background-color: white;
+    margin: 0;
+    color: #fff;
+    line-height: 1.6; 
+}
+a{
+    text-decoration: none;
+    color: #fff ;
+}
+
+#showcase{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+}
+
+#abcd{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 30px;
+    position: sticky;
+}
+
+
+
+#showcase .container{
+    margin-top: 18vh;
+    background-color: #000;
+}
+
+#showcase h1 img{
+    height: 300px;
+}
+
+#showcase h2{
+    color: white ;
+    background-color: #000;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+
+nav{
+    height: 46px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li:hover{
+    background-color:grey;
+}
+
+
+
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+#section2{
+    color: #000;
+    text-align: center;
+}
+
+#section2 h1{
+    background-color: white;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+*{
+    box-sizing:border-box;
+}
+
+.clm{
+    background-color: white;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.clm img{
+    height: 425px;
+}
+
+.clm img:hover{
+    opacity: 50%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}   
+
+
+
+
+
+
+footer{
+    background-color: #000;
+}
+
+
+ 
+.section h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+footer .footer-cols{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+}
+
+footer .footer-cols ul{
+    list-style: none;
+}
+
+footer .footer-cols ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #808080 solid 1px;
+    margin-bottom: 1rem;
+}
+
+footer .footer-bottom{
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
